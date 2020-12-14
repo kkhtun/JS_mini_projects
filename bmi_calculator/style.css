@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', consolas;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: #ffccdd;
+}
+
+form {
+	font-size: 1.2rem;
+	position: relative;
+	min-width: 400px;
+}
+
+form #height, form #weight {
+	margin-top: 5px;
+	margin-bottom: 10px;
+	position: relative;
+	height: 20px;
+	letter-spacing: 3px;
+	border-radius: 4px;
+	color: #333;
+	box-shadow: -4px -4px 10px rgba(255,255,255,1), 
+		inset 4px 4px 10px rgba(0, 0, 0, 0.2),
+		inset -4px -4px 10px rgba(255,255,255,1),
+		inset 4px 4px 10px rgba(0,0,0,0.1);
+}
+
+form #submit {
+	position: relative;
+	cursor: pointer;
+	color: #fff;
+	background: #333;
+	font-size: 1.2rem;
+	display: inline-block;
+	padding: 5px 15px;
+	border-radius: 4px;
+}
+
+#result, #cdc, #advice, #bmi {
+	display: none;
+}
+
+span#bmi {
+	font-weight: bold;
+	font-size: 1.3rem;
+}
