@@ -14,7 +14,6 @@ function getPassword() {
 	alertBox.innerHTML = "New Password Copied to clipboard! <br>"+ password;
 }
 
-
 function copyPassword() {
 	var copyPassText = document.getElementById('password');
 	copyPassText.select();
